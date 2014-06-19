@@ -14,13 +14,13 @@ Download the file jquery-draghover and include it in your page:
 <html>
 <head>
     ...
-    <script src="jquery.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="jquery-draghover.js"></script>
     ...
 </head>
 
 <body>
-    your content
+    <div class="droppable"></div>
 </body>
 
 </html>
