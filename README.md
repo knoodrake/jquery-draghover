@@ -14,12 +14,19 @@ This text you see here is *actually* written in Markdown! To get a feel for Mark
 
 Downloading the file jquery-draghover and include it in your page:
 ```html
+<html>
 <head>
     ...
     <script src="jquery.js"></script>
     <script src="jquery-draghover.js"></script>
     ...
 </head>
+
+<body>
+    content
+</body>
+
+</html>
 ```
 
 
