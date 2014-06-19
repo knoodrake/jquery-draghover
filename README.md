@@ -31,12 +31,13 @@ Downloading the file jquery-draghover and include it in your page:
 
 
 ## Use it
-```html
+```js
 var $ele = $(".droppable");
+
 $ele.draghover(function () {
-    // do staff when drag enter this element
+    // do staff when drag enters this element
 }, function () {
-    // do staff when drag leave this element
+    // do staff when drag leaves this element
 });
 ```
 
