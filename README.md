@@ -7,9 +7,6 @@ Drag and drop is a cool feature in Html5, but it is really a pain when we just w
 
 
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.  
-
-
 ## Getting Started
 
 Download the file jquery-draghover and include it in your page:
