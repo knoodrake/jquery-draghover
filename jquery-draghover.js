@@ -14,8 +14,9 @@
         function debounce(func, wait, immediate) {
             var timeout, args, context, timestamp, result;
 
+            var _now   = Date.now || function() { return new Date().getTime(); };
             var later = function () {
-                var last = _.now() - timestamp;
+                var last = _now() - timestamp;
 
                 if (last < wait && last > 0) {
                     timeout = setTimeout(later, wait - last);
@@ -31,7 +32,7 @@
             return function () {
                 context = this;
                 args = arguments;
-                timestamp = _.now();
+                timestamp = _now();
                 var callNow = immediate && !timeout;
                 if (!timeout) timeout = setTimeout(later, wait);
                 if (callNow) {
@@ -42,8 +43,6 @@
                 return result;
             };
         }
-
-        var _debounce = (_ && _.debounce) || debounce;
 
         return this.each(function () {
 
@@ -57,7 +56,7 @@
                 }
             });
 
-            $this.on("dragover", _debounce(function () {
+            $this.on("dragover", debounce(function () {
                 isEntered = false;
                 dragleaveCallback();
             }, 100));
