@@ -12,7 +12,7 @@ This text you see here is *actually* written in Markdown! To get a feel for Mark
 
 ## Getting Started
 
-Downloading the file jquery-draghover and include it in your page:
+Download the file jquery-draghover and include it in your page:
 ```html
 <html>
 <head>
