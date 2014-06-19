@@ -23,7 +23,7 @@ Downloading the file jquery-draghover and include it in your page:
 </head>
 
 <body>
-    content
+    your content
 </body>
 
 </html>
