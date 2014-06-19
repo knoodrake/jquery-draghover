@@ -26,9 +26,9 @@ Downloading the file jquery-draghover and include it in your page:
 ## Use it
 ```html
 $ele.draghover(function () {
-    self.$el.addClass("draghover");
+    // do staff when drag enter this element
 }, function () {
-    self.$el.removeClass("draghover");
+    // do staff when drag leave this element
 });
 ```
 
