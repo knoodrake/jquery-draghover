@@ -3,7 +3,7 @@ jquery-draghover
 
 Jquery-draghover is like jQuery hover, but excute dragenter and dragleave callbacks for matched elements.
 
-Drag and drop is a cool feature in HTML5, but it is really a pain when we just want simple dragenter and dragleave callbacks to be fired correctly on the element accross browsers. There are some proposals to the solution in Stackoverflow, but none of them works for me as I wanted. In the end, I figured out this workaround.
+Drag and drop is a cool feature in HTML5, but it is really a pain([drag and drop disaster][1]) when we just want simple dragenter and dragleave callbacks to be fired correctly on the element accross browsers. There are some proposals to the solution in Stackoverflow, but none of them works for me as I wanted. In the end, I figured out this workaround.
 
 
 
@@ -44,3 +44,5 @@ License
 
 MIT
 
+
+[1]:http://www.quirksmode.org/blog/archives/2009/09/the_html5_drag.html
